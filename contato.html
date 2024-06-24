@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title> FALE CONOSCO </title>
+		<meta charset="utf-8">
+		<meta name="discription" content="sobre o jogo undertale">
+		<meta name="keywords" content="undertale. jogo, trabalho, lore, frisk, sans">
+		<meta http-equiv="refresh" content="100">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Vitor Lopes">
+		<link rel="icon" href="img/flower.jpeg">
+		<link rel="stylesheet" href="css.css">
+		<script language="Javascript" type="text/javascript">
+			function validar() {
+				var nome = form1.nome.value; 
+				var email = form1.email.value; 
+				var nota = form1.nota.value; 
+				
+				
+				if(nome ==""){
+					alert("Preencha o campo com seu nome");
+					form1.nome.focus();
+					return false;
+				}
+				
+				if(email ==""){
+					alert("Preencha o campo com seu email");
+					form1.email.focus();
+					return false;
+				}
+				
+				if(nota ==""){
+					alert("Preencha o campo com sua nota");
+					form1.nota.focus();
+					return false;
+				}
+				}
+		</script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a class="logo" href="inex.html">UNDERTALE</a>
+				<ul class="nav-list">
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="lore.html">Lore</a></li>
+					<li><a href="jogo.html">Jogo</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+		<br><br><br><br>
+		<center>
+		 <form name="form1" action="conf.html" method="get">
+			<font face="minhafonte" color="#fff">
+			Nome: <input name="nome" type="text"><br><br>
+			Email: <input name="email" type="text"><br><br>
+			Deixe sua Nota!
+			<select name="nota">
+				<option> 
+				<option> 0
+				<option> 1
+				<option> 2
+				<option> 3
+				<option> 4
+				<option> 5
+				<option> 6
+				<option> 7
+				<option> 8
+				<option> 9
+				<option> 10
+			</select><br><br>
+			O que achou deste site?!<br><br>
+			<textarea cols="50" rows="15" name="coment"></textarea><br><br>
+			<input type="submit" onclick="return validar()">
+			<input type="reset" name="limpa" value="Limpar">
+		</form>
+		</font>
+		</center>
+		<br><br><br><br><br><br><br>
+		<div class="footer-bottom">
+			<h5><center><font color="#fff" face="calibri">Vitor Lopes <b>2024</b> - &copyTodos os direitos reservados<br>
+			Trabalho acadêmico sem fins lucrativos</font></center></h5>
+		</div>
+	</body>
+</html>

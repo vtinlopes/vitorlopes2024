@@ -1,0 +1,148 @@
+*{
+	margin:0px;
+	padding: 0;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+	transition: 0.3s;
+}
+
+a:hover{
+	opacity: 0.7;
+} 
+@font-face {
+    font-family: minhafonte;
+	src: url(MonsterFriendFore.otf);
+}
+
+.logo{
+	font-size:24px;
+	text-transform:uppercase;
+	letter-spacing: 4px;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: minhafonte; 
+	background: #23232e;
+	height: 8vh;
+}
+main{
+	background: url("bg.jpg") no-repeat
+	center center;
+	background-size: cover;
+	height: 92vh;
+}
+
+.nav-list{
+	list-style: none;
+	display: flex;
+}
+
+.nav-list li {
+	letter-spacing: 3px;
+	margin-left: 32px;
+}
+
+.mobile-menu{
+	display: none;
+	cursor: pointer;
+}
+
+body {
+	background-image: url("img/undertale1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+footer {
+    background-color: #23232e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content .socials li {
+    margin: 0 10px;
+}
+
+.footer-content .socials li a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer-content .socials li a img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    background-color: #191919;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 10px;
+    }
+
+    .footer-content h3 {
+        font-size: 20px;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+}
+textarea {
+    resize: none;
+}
+.esquerda {
+    text-align: right;
+    padding: 20px;
+}
